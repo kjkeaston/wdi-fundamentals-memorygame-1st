@@ -22,14 +22,19 @@ nav {
 	padding: 20px 0px 20px 0px;
 }
 
+nav a.generic:hover {
+	color: #F15B31;
+	border-color: white;
+}
+
 a.generic {
 	font-family: RALEWAY;
 	color: white;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	font-weight: 600;
 	font-size: 18px;
 	margin: 0px 20px 0px 20px;
-	text-decoration: none;
+	border-bottom: 2px solid transparent;
 }
 
 main {
@@ -63,10 +68,39 @@ h3 {
 	font-size: 18px;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
 
+footer {
+	text-transform: uppercase;
+	padding: 0px 20px 0px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
 
+.copyright {
+	float: left;
+	font-family: raleway;
+}
 
+.message {
+	float: right;
+	font-family: raleway;
+}
 
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
 
 
 
